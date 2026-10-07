@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "old_source_files_backed_up": 116,
+  "overlay_validate_passed": true,
+  "git_environment_personal_files_preserved": true,
+  "unknown_old_dir_files_preserved": true,
+  "repeated_apply_after_overlay_moves_nothing": true
+}

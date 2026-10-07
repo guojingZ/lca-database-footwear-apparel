@@ -1,0 +1,44 @@
+test_bad_request_and_origin (test_api.ApiTests.test_bad_request_and_origin) ... ok
+test_evidence_and_protected_paths (test_api.ApiTests.test_evidence_and_protected_paths) ... ok
+test_page_and_catalog (test_api.ApiTests.test_page_and_catalog) ... ok
+test_web_and_python_calculation_and_export_are_identical (test_api.ApiTests.test_web_and_python_calculation_and_export_are_identical) ... ok
+test_all_source_files_and_processed_values_match (test_data_and_upgrade.DataTests.test_all_source_files_and_processed_values_match) ... ok
+test_changed_processed_value_and_invalid_dqr_are_detected (test_data_and_upgrade.DataTests.test_changed_processed_value_and_invalid_dqr_are_detected) ... ok
+test_counts_empty_rows_unknowns_and_units (test_data_and_upgrade.DataTests.test_counts_empty_rows_unknowns_and_units) ... ok
+test_any_modified_source_aborts_all_moves (test_data_and_upgrade.UpgradeTests.test_any_modified_source_aborts_all_moves) ... ok
+test_changed_after_scan_is_not_moved (test_data_and_upgrade.UpgradeTests.test_changed_after_scan_is_not_moved) ... ok
+test_matching_files_backup_unknown_and_git_are_preserved (test_data_and_upgrade.UpgradeTests.test_matching_files_backup_unknown_and_git_are_preserved) ... ok
+test_new_application_path_conflict_stops_old_file_moves (test_data_and_upgrade.UpgradeTests.test_new_application_path_conflict_stops_old_file_moves) ... ok
+test_source_directory_symlink_is_not_followed (test_data_and_upgrade.UpgradeTests.test_source_directory_symlink_is_not_followed) ... ok
+test_bad_shares_bad_loss_nan_and_missing_source (test_engine.EngineTests.test_bad_shares_bad_loss_nan_and_missing_source) ... ok
+test_compare_coverage_and_boundary (test_engine.EngineTests.test_compare_coverage_and_boundary) ... ok
+test_duplicate_factor_requires_repeat_reason (test_engine.EngineTests.test_duplicate_factor_requires_repeat_reason) ... ok
+test_empty_inventory_has_no_false_zero_subtotal (test_engine.EngineTests.test_empty_inventory_has_no_false_zero_subtotal) ... ok
+test_hand_calculated_chain_and_material_balance (test_engine.EngineTests.test_hand_calculated_chain_and_material_balance) ... ok
+test_inventory_and_factor_paths_are_mutually_exclusive (test_engine.EngineTests.test_inventory_and_factor_paths_are_mutually_exclusive) ... ok
+test_loss_percent_equals_ratio (test_engine.EngineTests.test_loss_percent_equals_ratio) ... ok
+test_malformed_lists_return_a_clear_validation_error (test_engine.EngineTests.test_malformed_lists_return_a_clear_validation_error) ... ok
+test_missing_waste_is_a_real_gap (test_engine.EngineTests.test_missing_waste_is_a_real_gap) ... ok
+test_only_explicit_supported_unit_conversion (test_engine.EngineTests.test_only_explicit_supported_unit_conversion) ... ok
+test_pending_and_hypothetical_factor_keep_partial_status (test_engine.EngineTests.test_pending_and_hypothetical_factor_keep_partial_status) ... ok
+test_real_assembly_and_drying_need_overlap_evidence (test_engine.EngineTests.test_real_assembly_and_drying_need_overlap_evidence) ... ok
+test_real_templates_and_mixed_unit_catalog (test_engine.EngineTests.test_real_templates_and_mixed_unit_catalog) ... ok
+test_removed_required_stage_is_not_silently_complete (test_engine.EngineTests.test_removed_required_stage_is_not_silently_complete) ... ok
+test_save_reload_and_catalog_change (test_engine.EngineTests.test_save_reload_and_catalog_change) ... ok
+test_unknown_is_partial_and_never_complete_total (test_engine.EngineTests.test_unknown_is_partial_and_never_complete_total) ... ok
+test_unknown_ratio_stops_upstream_quantities (test_engine.EngineTests.test_unknown_ratio_stops_upstream_quantities) ... ok
+test_wrong_unit_blocks_published_subtotal (test_engine.EngineTests.test_wrong_unit_blocks_published_subtotal) ... ok
+test_zero_is_allowed_only_as_an_explicit_factor_value (test_engine.EngineTests.test_zero_is_allowed_only_as_an_explicit_factor_value) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 1.616s
+
+OK
+本地请求："POST /api/calculate HTTP/1.1" 400 -
+本地请求："POST /api/calculate HTTP/1.1" 403 -
+本地请求："GET /evidence/upstream/carbonfact/datasets/dyeing/impact-scores.csv HTTP/1.1" 200 -
+本地请求："GET /evidence/../../app.py HTTP/1.1" 404 -
+本地请求："GET / HTTP/1.1" 200 -
+本地请求："GET /api/catalog HTTP/1.1" 200 -
+本地请求："POST /api/calculate HTTP/1.1" 200 -
+本地请求："POST /api/export HTTP/1.1" 200 -

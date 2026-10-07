@@ -1,0 +1,66 @@
+[
+  {
+    "id": "counts",
+    "state": "已验证",
+    "finding": "根 README 机织 19 条，CSV 17 条；非织造 2 条有效记录和 17 条全空记录。",
+    "evidence": [
+      "upstream/carbonfact/README.md",
+      "upstream/carbonfact/datasets/weaving/impact-scores.csv",
+      "upstream/carbonfact/datasets/non-woven/impact-scores.csv"
+    ],
+    "handling": "以有效 CSV 记录为目录；不修改上游文字。"
+  },
+  {
+    "id": "rounded-ghg",
+    "state": "已验证",
+    "finding": "活性轧蒸纤维素染色 CSV 3.411320485032258，说明约 3.39；常规喷射分散染 CSV 4.788708973517695，说明约 4.76。",
+    "evidence": [
+      "upstream/carbonfact/datasets/dyeing/impact-scores.csv",
+      "upstream/carbonfact/datasets/dyeing/README.md",
+      "upstream/carbonfact/datasets/dyeing/methodology/Dyeing_DB_Methodology.pdf"
+    ],
+    "handling": "使用 CSV 原值；差异未经上游解释，不推测原因。"
+  },
+  {
+    "id": "loss-and-capital",
+    "state": "已验证",
+    "finding": "通用说明与具体说明对损耗/资本品边界表述有差异；整理专属 PDF 排除资本品。",
+    "evidence": [
+      "upstream/carbonfact/methodology/overview.md",
+      "upstream/carbonfact/README.md",
+      "upstream/carbonfact/datasets/finishing/methodology/Finishing_DB_Methodology.pdf"
+    ],
+    "handling": "按具体工序证据，保留冲突；外置损失材料处理，不直接重复加工内嵌项。"
+  },
+  {
+    "id": "units",
+    "state": "已验证",
+    "finding": "通用指标说明写所有记录每 kg，但运动鞋每双、PU 每 m²、熨烫每分钟。",
+    "evidence": [
+      "upstream/carbonfact/methodology/impact-indicators.md",
+      "upstream/carbonfact/datasets/shoe-assembly/sneaker/README.md",
+      "upstream/carbonfact/datasets/synthetic-pu-leather/README.md",
+      "upstream/carbonfact/datasets/use-phase/impact-scores.csv"
+    ],
+    "handling": "逐类/逐条取专属功能单位；不把通用分母套在全部记录上。"
+  },
+  {
+    "id": "version",
+    "state": "已验证",
+    "finding": "CITATION.cff 标注 1.1.0，CHANGELOG 含 Unreleased。提交号和逐条数据年份未知。",
+    "evidence": [
+      "upstream/carbonfact/CITATION.cff",
+      "upstream/carbonfact/CHANGELOG.md"
+    ],
+    "handling": "来源定位使用文件哈希；发布年不填作数据年。"
+  },
+  {
+    "id": "knitting-regression",
+    "state": "待验证",
+    "finding": "针织说明的电耗公式、表格和适用纱支区间需要进一步一致性核查。",
+    "evidence": [
+      "upstream/carbonfact/datasets/knitting/methodology/circular-knitting/lci.md"
+    ],
+    "handling": "v0.1 不据其重新生成因子。"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "catalog_digest": "9ed63a5e7126182df8a80c393e332a8032587c1a5c0e857041ffb6049c80086e",
+  "boundary_reviewed": false,
+  "external_factors": [],
+  "waste_factor_id": null,
+  "additional_items": [],
+  "materials": [],
+  "name": "100 kg 涤纶染整结构模板",
+  "weight_g": "100000",
+  "result_basis": "batch",
+  "boundary": "坯布进入至染整成品出厂；不含来料布生产，包含损失材料处理",
+  "include_materials": false,
+  "chain": [
+    {
+      "id": "desizing",
+      "name": "聚酯连续退浆",
+      "mode": "factor",
+      "factor_id": "cf-0b2ba763abd5d99c",
+      "ratio_mode": "factor"
+    },
+    {
+      "id": "dyeing",
+      "name": "常规喷射分散染色",
+      "mode": "factor",
+      "factor_id": "cf-f396b9e06cb920f6",
+      "ratio_mode": "factor"
+    },
+    {
+      "id": "heatsetting",
+      "name": "聚酯 190°C 热定型",
+      "mode": "factor",
+      "factor_id": "cf-014eed3351ad03fb",
+      "ratio_mode": "factor"
+    }
+  ],
+  "required_stages": [
+    {
+      "id": "desizing",
+      "name": "聚酯连续退浆"
+    },
+    {
+      "id": "dyeing",
+      "name": "常规喷射分散染色"
+    },
+    {
+      "id": "heatsetting",
+      "name": "聚酯 190°C 热定型"
+    }
+  ]
+}

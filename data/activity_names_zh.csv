@@ -1,0 +1,305 @@
+﻿descriptor,activity_zh,activity_en,status
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/DISPERSE/BATCH/BEAM#SYNTHETIC_FIBERS@WORLD,织物染色 · 浸染 · 经轴 · 分散染料 · 合成纤维 · 中等色深,"Fabric dyeing, Exhaust, Beam, Disperse, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/REACTIVE/CONTINUOUS/PAD_STEAM#NATURAL_FIBERS@WORLD,织物染色 · 连续 · 轧蒸 · 活性染料 · 纤维素纤维 · 中等色深,"Fabric dyeing, Continuous, Pad steam, Reactive, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/DISPERSE/BATCH/SOFTFLOW_JET#SYNTHETIC_FIBERS@WORLD,织物染色 · 浸染 · 柔流喷射 · 分散染料 · 合成纤维 · 中等色深,"Fabric dyeing, Exhaust, Softflow jet, Disperse, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/YARN/ACID/BATCH/PACKAGE#WOOL_AND_SILK@WORLD,纱线染色 · 浸染 · 筒子/装笼 · 酸性染料 · 动物纤维 · 中等色深,"Yarn dyeing, Exhaust, Package, Acid, Animal Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FIBER/VAT/BATCH/PACKAGE#NATURAL_FIBERS@WORLD,纤维染色 · 浸染 · 筒子/装笼 · 还原染料 · 纤维素纤维 · 中等色深,"Fiber dyeing, Exhaust, Package, Vat, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/DISPERSE/BATCH/CONVENTIONAL_JET#SYNTHETIC_FIBERS@WORLD,织物染色 · 浸染 · 常规喷射 · 分散染料 · 合成纤维 · 中等色深,"Fabric dyeing, Exhaust, Conventional jet, Disperse, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/YARN/DISPERSE/BATCH/HANK#SYNTHETIC_FIBERS@WORLD,纱线染色 · 浸染 · 绞纱 · 分散染料 · 合成纤维 · 中等色深,"Yarn dyeing, Exhaust, Hank, Disperse, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/ACID/BATCH/CONVENTIONAL_JET#WOOL_AND_SILK@WORLD,织物染色 · 浸染 · 常规喷射 · 酸性染料 · 动物纤维 · 中等色深,"Fabric dyeing, Exhaust, Conventional jet, Acid, Animal Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FIBER/REACTIVE/BATCH/PACKAGE#NATURAL_FIBERS@WORLD,纤维染色 · 浸染 · 筒子/装笼 · 活性染料 · 纤维素纤维 · 中等色深,"Fiber dyeing, Exhaust, Package, Reactive, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/ACID/CONTINUOUS/PAD_STEAM#WOOL_AND_SILK@WORLD,织物染色 · 连续 · 轧蒸 · 酸性染料 · 动物纤维 · 中等色深,"Fabric dyeing, Continuous, Pad steam, Acid, Animal Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FIBER/DISPERSE/BATCH/PACKAGE#SYNTHETIC_FIBERS@WORLD,纤维染色 · 浸染 · 筒子/装笼 · 分散染料 · 合成纤维 · 中等色深,"Fiber dyeing, Exhaust, Package, Disperse, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FIBER/ACID/BATCH/PACKAGE#WOOL_AND_SILK@WORLD,纤维染色 · 浸染 · 筒子/装笼 · 酸性染料 · 动物纤维 · 中等色深,"Fiber dyeing, Exhaust, Package, Acid, Animal Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/GARMENT/REACTIVE/BATCH/FRONT_LOADER#NATURAL_FIBERS@WORLD,成衣染色 · 浸染 · 前装式染色机 · 活性染料 · 纤维素纤维 · 中等色深,"Garment dyeing, Exhaust, Front Loader, Reactive, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/YARN/DISPERSE/BATCH/PACKAGE#SYNTHETIC_FIBERS@WORLD,纱线染色 · 浸染 · 筒子/装笼 · 分散染料 · 合成纤维 · 中等色深,"Yarn dyeing, Exhaust, Package, Disperse, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/ACID/BATCH/AIRFLOW_JET#WOOL_AND_SILK@WORLD,织物染色 · 浸染 · 气流喷射 · 酸性染料 · 动物纤维 · 中等色深,"Fabric dyeing, Exhaust, Airflow jet, Acid, Animal Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/YARN/ACID/BATCH/HANK#WOOL_AND_SILK@WORLD,纱线染色 · 浸染 · 绞纱 · 酸性染料 · 动物纤维 · 中等色深,"Yarn dyeing, Exhaust, Hank, Acid, Animal Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/ACID/BATCH/CONVENTIONAL_JET#SYNTHETIC_FIBERS@WORLD,织物染色 · 浸染 · 常规喷射 · 酸性染料 · 合成纤维 · 中等色深,"Fabric dyeing, Exhaust, Conventional jet, Acid, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/YARN/INDIGO/CONTINUOUS/ROPE#NATURAL_FIBERS@WORLD,纱线染色 · 连续 · 绳状染色 · 靛蓝（背景使用还原染料代理） · 纤维素纤维 · 中等色深,"Yarn dyeing, Continuous, Rope, Indigo, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/ACID/BATCH/BEAM#SYNTHETIC_FIBERS@WORLD,织物染色 · 浸染 · 经轴 · 酸性染料 · 合成纤维 · 中等色深,"Fabric dyeing, Exhaust, Beam, Acid, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/YARN/ACID/BATCH/PACKAGE#SYNTHETIC_FIBERS@WORLD,纱线染色 · 浸染 · 筒子/装笼 · 酸性染料 · 合成纤维 · 中等色深,"Yarn dyeing, Exhaust, Package, Acid, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/YARN/REACTIVE/BATCH/HANK#NATURAL_FIBERS@WORLD,纱线染色 · 浸染 · 绞纱 · 活性染料 · 纤维素纤维 · 中等色深,"Yarn dyeing, Exhaust, Hank, Reactive, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/REACTIVE/BATCH/BEAM#NATURAL_FIBERS@WORLD,织物染色 · 浸染 · 经轴 · 活性染料 · 纤维素纤维 · 中等色深,"Fabric dyeing, Exhaust, Beam, Reactive, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/REACTIVE/BATCH/SOFTFLOW_JET#NATURAL_FIBERS@WORLD,织物染色 · 浸染 · 柔流喷射 · 活性染料 · 纤维素纤维 · 中等色深,"Fabric dyeing, Exhaust, Softflow jet, Reactive, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/YARN/VAT/BATCH/PACKAGE#NATURAL_FIBERS@WORLD,纱线染色 · 浸染 · 筒子/装笼 · 还原染料 · 纤维素纤维 · 中等色深,"Yarn dyeing, Exhaust, Package, Vat, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/YARN/REACTIVE/BATCH/PACKAGE#NATURAL_FIBERS@WORLD,纱线染色 · 浸染 · 筒子/装笼 · 活性染料 · 纤维素纤维 · 中等色深,"Yarn dyeing, Exhaust, Package, Reactive, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/DISPERSE/CONTINUOUS/THERMOSOL#SYNTHETIC_FIBERS@WORLD,织物染色 · 连续 · 热熔染色 · 分散染料 · 合成纤维 · 中等色深,"Fabric dyeing, Continuous, Thermosol, Disperse, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/DISPERSE/BATCH/AIRFLOW_JET#SYNTHETIC_FIBERS@WORLD,织物染色 · 浸染 · 气流喷射 · 分散染料 · 合成纤维 · 中等色深,"Fabric dyeing, Exhaust, Airflow jet, Disperse, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/ACID/BATCH/SOFTFLOW_JET#WOOL_AND_SILK@WORLD,织物染色 · 浸染 · 柔流喷射 · 酸性染料 · 动物纤维 · 中等色深,"Fabric dyeing, Exhaust, Softflow jet, Acid, Animal Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/ACID/BATCH/SOFTFLOW_JET#SYNTHETIC_FIBERS@WORLD,织物染色 · 浸染 · 柔流喷射 · 酸性染料 · 合成纤维 · 中等色深,"Fabric dyeing, Exhaust, Softflow jet, Acid, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/ACID/BATCH/AIRFLOW_JET#SYNTHETIC_FIBERS@WORLD,织物染色 · 浸染 · 气流喷射 · 酸性染料 · 合成纤维 · 中等色深,"Fabric dyeing, Exhaust, Airflow jet, Acid, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/REACTIVE/BATCH/AIRFLOW_JET#NATURAL_FIBERS@WORLD,织物染色 · 浸染 · 气流喷射 · 活性染料 · 纤维素纤维 · 中等色深,"Fabric dyeing, Exhaust, Airflow jet, Reactive, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/YARN/VAT/BATCH/HANK#NATURAL_FIBERS@WORLD,纱线染色 · 浸染 · 绞纱 · 还原染料 · 纤维素纤维 · 中等色深,"Yarn dyeing, Exhaust, Hank, Vat, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/REACTIVE/BATCH/CONVENTIONAL_JET#NATURAL_FIBERS@WORLD,织物染色 · 浸染 · 常规喷射 · 活性染料 · 纤维素纤维 · 中等色深,"Fabric dyeing, Exhaust, Conventional jet, Reactive, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/VAT/CONTINUOUS/PAD_STEAM#NATURAL_FIBERS@WORLD,织物染色 · 连续 · 轧蒸 · 还原染料 · 纤维素纤维 · 中等色深,"Fabric dyeing, Continuous, Pad steam, Vat, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/YARN/ACID/BATCH/HANK#SYNTHETIC_FIBERS@WORLD,纱线染色 · 浸染 · 绞纱 · 酸性染料 · 合成纤维 · 中等色深,"Yarn dyeing, Exhaust, Hank, Acid, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/REACTIVE/SEMI-CONTINUOUS/CPB#NATURAL_FIBERS@WORLD,织物染色 · 半连续 · 冷轧堆（CPB） · 活性染料 · 纤维素纤维 · 中等色深,"Fabric dyeing, Semi-continuous, CPB, Reactive, Cellulosic Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FABRIC/ACID/BATCH/BEAM#WOOL_AND_SILK@WORLD,织物染色 · 浸染 · 经轴 · 酸性染料 · 动物纤维 · 中等色深,"Fabric dyeing, Exhaust, Beam, Acid, Animal Fibers, Medium Shade",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COLORATION/DYEING/FIBER/ACID/BATCH/PACKAGE#SYNTHETIC_FIBERS@WORLD,纤维染色 · 浸染 · 筒子/装笼 · 酸性染料 · 合成纤维 · 中等色深,"Fiber dyeing, Exhaust, Package, Acid, Synthetic Fibers, Medium Shade",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/CAN_DRY#ANY@WORLD,织物整理 · 烘筒干燥 · 滚筒烘干,"Fabric finishing, Can Dry, Cylinder drying",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PREPARATION/MERCERIZATION#ANY@WORLD,织物前处理 · 丝光 · 连续 · 棉,"Fabric pre-treatment, Mercerization, Continuous, Cotton",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/COATING#ANY@WORLD,织物整理 · 涂层/层压 · 辊上刮刀,"Fabric finishing, Coating or Lamination, Knife-over-roll",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/FLAME_RETARDANT/PAD_DRY_CURE/PYROVATEX_N-P#ANY@WORLD,织物整理 · 阻燃 · Pyrovatex N-P · 浸轧－烘干－焙烘,"Fabric finishing, Flame retardant, Pyrovatex N-P, Pad-Dry-Cure",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/HEAT_SETTING#ANY@WORLD,织物整理 · 热定型 · 拉幅机 · 聚酯 190°C,"Fabric finishing, Heat setting, Stenter, PES 190°C",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/THERMOFIXING#ANY@WORLD,织物整理 · 热固着 · 拉幅机 · 棉 160°C,"Fabric finishing, Thermofixing, Stenter, Cotton 160°C",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/SANFORIZATION#ANY@WORLD,织物整理 · 防缩 · 压缩预缩,"Fabric finishing, Sanforization, Compressive shrinkage",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/WATER_REPELLENT/PAD_DRY/C0_FLUOROCARBON#ANY@WORLD,织物整理 · 耐久拒水（DWR） · C0 无氟 · 浸轧－烘干 · 拉幅机,"Fabric finishing, DWR, C0 non-fluoro, Pad-Dry, Stenter",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PREPARATION/DESIZING#ANY@WORLD,织物前处理 · 退浆 · 聚酯 · 连续,"Fabric pre-treatment, Desizing, Polyester, Continuous",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/FLAME_RETARDANT/PAD_CURE_OXIDIZE/PROBAN_THPC#ANY@WORLD,织物整理 · 阻燃 · Proban THPC · 浸轧－焙烘－氧化,"Fabric finishing, Flame retardant, Proban THPC, Pad-Cure-Oxidize",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/SOFTENING/PAD_DRY#ANY@WORLD,织物整理 · 柔软整理 · 浸轧－烘干 · 拉幅机,"Fabric finishing, Softening, Pad-Dry, Stenter",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/RAISING#ANY@WORLD,织物整理 · 起绒/刷毛 · 机械,"Fabric finishing, Raising-Brushing, Mechanical",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/CALENDERING#ANY@WORLD,织物整理 · 轧光 · 加热辊,"Fabric finishing, Calendering, Heated roller",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/WATER_REPELLENT/PAD_DRY/C6_FLUOROCARBON#ANY@WORLD,织物整理 · 耐久拒水（DWR） · C6 氟碳 · 浸轧－烘干 · 拉幅机,"Fabric finishing, DWR, C6 fluorocarbon, Pad-Dry, Stenter",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/SOFTENING/JET#ANY@WORLD,织物整理 · 柔软整理 · 浸染 · 喷射机,"Fabric finishing, Softening, Exhaust, Jet",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/COMPACTING#ANY@WORLD,织物整理 · 紧缩整理 · 机械压缩,"Fabric finishing, Compacting, Mechanical compressive",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/EMERIZING#ANY@WORLD,织物整理 · 磨毛 · 桃皮绒效果,"Fabric finishing, Emerizing, Peach skin effect",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:FINISHING/EASY_CARE/PAD_DRY_CURE#ANY@WORLD,织物整理 · 易护理 · DMDHEU · 浸轧－烘干－焙烘 · 拉幅机,"Fabric finishing, Easy-care, DMDHEU, Pad-Dry-Cure, Stenter",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/CIRCULAR#ANY?DTEX=120@WORLD,圆机针织 · 120 dtex,"Circular Knitting, 120 dtex",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/CIRCULAR#ANY?DTEX=330@WORLD,圆机针织 · 330 dtex,"Circular Knitting, 330 dtex",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/CIRCULAR#ANY?DTEX=170@WORLD,圆机针织 · 170 dtex,"Circular Knitting, 170 dtex",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/CIRCULAR#ANY?DTEX=300@WORLD,圆机针织 · 300 dtex,"Circular Knitting, 300 dtex",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/HOSIERY#ANY@WORLD,袜类针织（平均）,"Hosiery Knitting, Average",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/SEAMLESS#ANY@WORLD,无缝针织（平均）,"Seamless Knitting, Average",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/CIRCULAR#ANY?DTEX=370@WORLD,圆机针织 · 370 dtex,"Circular Knitting, 370 dtex",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/CIRCULAR#ANY?DTEX=150@WORLD,圆机针织 · 150 dtex,"Circular Knitting, 150 dtex",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/FLAT#ANY@WORLD,横机针织（平均）,"Flat Knitting, Average",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/CIRCULAR#ANY?DTEX=200@WORLD,圆机针织 · 200 dtex,"Circular Knitting, 200 dtex",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/CIRCULAR#ANY?DTEX=45@WORLD,圆机针织 · 45 dtex,"Circular Knitting, 45 dtex",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/3D#ANY@WORLD,三维针织（平均）,"3D Knitting, Average",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/KNITTING/CIRCULAR#ANY?DTEX=70@WORLD,圆机针织 · 70 dtex,"Circular Knitting, 70 dtex",中文展示映射；原文同时保留
+MATERIAL:NATURAL_RUBBER/STR#ANY@TH,标准技术橡胶（STR）生产 · 泰国,STR production [TH],中文展示映射；原文同时保留
+MATERIAL:NATURAL_RUBBER/STR#ANY@ID,标准技术橡胶（STR）生产 · 印度尼西亚,STR production [ID],中文展示映射；原文同时保留
+MATERIAL:NATURAL_RUBBER/STR#ANY@CI,标准技术橡胶（STR）生产 · 科特迪瓦,STR production [CI],中文展示映射；原文同时保留
+MATERIAL:NATURAL_RUBBER/STR#ANY@VN,标准技术橡胶（STR）生产 · 越南,STR production [VN],中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/NON_WOVEN/WETLAID_SPUNLACE/CELLULOSIC_FIBERS#ANY@WORLD,非织造布 · 纤维素湿法水刺,"Fabric production, nonwoven, cellulosic, wetlaid spunlace",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/NON_WOVEN/MELTBLOWN/POLYPROPYLENE#ANY@WORLD,非织造布 · 聚丙烯熔喷,"Fabric production, nonwoven, polypropylene, meltblown",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/BATCH/TRANSFER/SUBLIMATION#ANY@WORLD,成衣印花 · 间歇 · 转移 · 升华,"Garment printing, Batch, Transfer, Sublimation",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/CONTINUOUS/ROTARY_SCREEN/DISCHARGE#ANY@WORLD,织物印花 · 连续 · 圆网 · 拔染,"Fabric printing, Continuous, Rotary screen, Discharge",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/SEMI_CONTINUOUS/FLAT_SCREEN/PIGMENT#ANY@WORLD,织物印花 · 半连续 · 平网 · 涂料,"Fabric printing, Semi-continuous, Flat screen, Pigment",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/CONTINUOUS/DIGITAL_INKJET/PIGMENT#ANY@WORLD,织物印花 · 连续 · 数字喷墨 · 涂料,"Fabric printing, Continuous, Digital inkjet, Pigment",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/CONTINUOUS/ROTARY_SCREEN/REACTIVE#ANY@WORLD,织物印花 · 连续 · 圆网 · 活性染料,"Fabric printing, Continuous, Rotary screen, Reactive",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/CONTINUOUS/DIGITAL_INKJET/REACTIVE#ANY@WORLD,织物印花 · 连续 · 数字喷墨 · 活性染料,"Fabric printing, Continuous, Digital inkjet, Reactive",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/CONTINUOUS/DIGITAL_INKJET/DISPERSE#ANY@WORLD,织物印花 · 连续 · 数字喷墨 · 分散染料,"Fabric printing, Continuous, Digital inkjet, Disperse",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/CONTINUOUS/DIGITAL_INKJET/SUBLIMATION#ANY@WORLD,织物印花 · 连续 · 数字喷墨 · 升华,"Fabric printing, Continuous, Digital inkjet, Sublimation",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/CONTINUOUS/ROTARY_SCREEN/DISPERSE#ANY@WORLD,织物印花 · 连续 · 圆网 · 分散染料,"Fabric printing, Continuous, Rotary screen, Disperse",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/CONTINUOUS/ROTARY_SCREEN/BURNOUT#ANY@WORLD,织物印花 · 连续 · 圆网 · Burnout,"Fabric printing, Continuous, Rotary screen, Burnout",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/BATCH/DIGITAL/PIGMENT#ANY@WORLD,成衣印花 · 间歇 · 数字 · 涂料,"Garment printing, Batch, Digital, Pigment",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/SEMI_CONTINUOUS/FLAT_SCREEN/REACTIVE#ANY@WORLD,织物印花 · 半连续 · 平网 · 活性染料,"Fabric printing, Semi-continuous, Flat screen, Reactive",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/CONTINUOUS/ROTARY_SCREEN/PIGMENT#ANY@WORLD,织物印花 · 连续 · 圆网 · 涂料,"Fabric printing, Continuous, Rotary screen, Pigment",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/SEMI_CONTINUOUS/FLAT_SCREEN/DISPERSE#ANY@WORLD,织物印花 · 半连续 · 平网 · 分散染料,"Fabric printing, Semi-continuous, Flat screen, Disperse",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/SEMI_CONTINUOUS/TRANSFER/SUBLIMATION#ANY@WORLD,织物印花 · 半连续 · 转移 · 升华,"Fabric printing, Semi-continuous, Transfer, Sublimation",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PRINTING/SEMI_CONTINUOUS/FLAT_SCREEN/DISCHARGE#ANY@WORLD,织物印花 · 半连续 · 平网 · 拔染,"Fabric printing, Semi-continuous, Flat screen, Discharge",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:FOOTWEAR_ASSEMBLY/SNEAKER_SHOE#VN@WORLD,运动鞋装配 · 越南电力情景,"Sneaker Shoe Assembly, Vietnam electricity",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:FOOTWEAR_ASSEMBLY/SNEAKER_SHOE#GLO@WORLD,运动鞋装配 · 全球平均电力情景,"Sneaker Shoe Assembly, Global average electricity",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:FOOTWEAR_ASSEMBLY/WOMENS_BOOTS#GLO@WORLD,女靴装配 · 全球平均电力情景,"Women's Boots Assembly, Global average electricity",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:FOOTWEAR_ASSEMBLY/WOMENS_BOOTS#CN@WORLD,女靴装配 · 中国电力情景,"Women's Boots Assembly, China electricity",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:FOOTWEAR_ASSEMBLY/WOMENS_BOOTS#IT@WORLD,女靴装配 · 意大利电力情景,"Women's Boots Assembly, Italy electricity",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/ACRYLIC?DTEX=200@WORLD,腈纶（含变性腈纶） · 转杯纺 · 200 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 200 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_POY#SYNTHETIC_FIBERS/ELASTANE@WORLD,氨纶 · 熔融纺丝（预取向丝 POY）,"Spinning to filament, Elastane (Spandex/Lycra), Melt Spinning (POY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_WOVEN/RING#PLANT_FIBERS/COTTON?DTEX=150@WORLD,棉 · 环锭纺（机织用精梳棉） · 150 dtex,"Spinning to yarn, Coton Combed - Weaving, 150 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#CELLULOSE_BASED_FIBERS/MMCF?DTEX=45@WORLD,人造纤维素纤维 · 转杯纺 · 45 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 45 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_POY#CELLULOSE_BASED_FIBERS/ACETATE@WORLD,醋酸纤维 · 熔融纺丝（预取向丝 POY）,"Spinning to filament, Acetate, Triacetate, Melt Spinning (POY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_WOVEN/RING#PLANT_FIBERS/COTTON?DTEX=170@WORLD,棉 · 环锭纺（机织用精梳棉） · 170 dtex,"Spinning to yarn, Coton Combed - Weaving, 170 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_DTY#SYNTHETIC_FIBERS/POLYAMIDE@WORLD,聚酰胺（锦纶） · 熔融纺丝（拉伸变形丝 DTY）,"Spinning to filament, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), Melt Spinning (FDY/DTY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#PLANT_FIBERS/COTTON?DTEX=70@WORLD,棉 · 转杯纺 · 70 dtex,"Spinning to yarn, Cotton, 70 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ELASTANE?DTEX=150@WORLD,氨纶 · 环锭纺 · 150 dtex,"Spinning to yarn, Elastane (Spandex/Lycra), 150 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_KNIT/RING#PLANT_FIBERS/COTTON?DTEX=70@WORLD,棉 · 环锭纺（针织用精梳棉） · 70 dtex,"Spinning to yarn, Cotton Combed - Knitting, 70 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#PLANT_FIBERS/COTTON?DTEX=330@WORLD,棉 · 转杯纺 · 330 dtex,"Spinning to yarn, Cotton, 330 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#ANIMAL_FIBERS/SILK?DTEX=150@WORLD,蚕丝 · 转杯纺 · 150 dtex,"Spinning to yarn, Spun Silk, 150 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#CELLULOSE_BASED_FIBERS/MMCF?DTEX=200@WORLD,人造纤维素纤维 · 环锭纺 · 200 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 200 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WOOLEN?DTEX=300@WORLD,粗梳羊毛 · 环锭纺 · 300 dtex,"Spinning to yarn, Woollen Wool, 300 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_POY#SYNTHETIC_FIBERS/ACRYLIC@WORLD,腈纶（含变性腈纶） · 熔融纺丝（预取向丝 POY）,"Spinning to filament, Acrylic, Modacrylic, PAN (Polyacrylonitrile), Melt Spinning (POY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#CELLULOSE_BASED_FIBERS/MMCF?DTEX=150@WORLD,人造纤维素纤维 · 转杯纺 · 150 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 150 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#ANIMAL_FIBERS/SILK?DTEX=170@WORLD,蚕丝 · 转杯纺 · 170 dtex,"Spinning to yarn, Spun Silk, 170 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/SILK?DTEX=150@WORLD,蚕丝 · 环锭纺 · 150 dtex,"Spinning to yarn, Spun Silk, 150 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WOOLEN?DTEX=150@WORLD,粗梳羊毛 · 环锭纺 · 150 dtex,"Spinning to yarn, Woollen Wool, 150 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#PLANT_FIBERS/COTTON?DTEX=120@WORLD,棉 · 转杯纺 · 120 dtex,"Spinning to yarn, Cotton, 120 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=70@WORLD,聚酰胺（锦纶） · 转杯纺 · 70 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 70 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#CELLULOSE_BASED_FIBERS/MMCF?DTEX=370@WORLD,人造纤维素纤维 · 环锭纺 · 370 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 370 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=120@WORLD,聚酰胺（锦纶） · 转杯纺 · 120 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 120 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#ANIMAL_FIBERS/SILK?DTEX=120@WORLD,蚕丝 · 转杯纺 · 120 dtex,"Spinning to yarn, Spun Silk, 120 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#ANIMAL_FIBERS/SILK?DTEX=370@WORLD,蚕丝 · 转杯纺 · 370 dtex,"Spinning to yarn, Spun Silk, 370 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYESTER?DTEX=120@WORLD,聚酯（涤纶） · 环锭纺 · 120 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 120 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WORSTED?DTEX=300@WORLD,精梳羊毛 · 环锭纺 · 300 dtex,"Spinning to yarn, Worsted Wool, 300 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_DTY#SYNTHETIC_FIBERS/ELASTANE@WORLD,氨纶 · 熔融纺丝（拉伸变形丝 DTY）,"Spinning to filament, Elastane (Spandex/Lycra), Melt Spinning (FDY/DTY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#CELLULOSE_BASED_FIBERS/MMCF?DTEX=300@WORLD,人造纤维素纤维 · 转杯纺 · 300 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 300 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/ACRYLIC?DTEX=70@WORLD,腈纶（含变性腈纶） · 转杯纺 · 70 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 70 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ACRYLIC?DTEX=120@WORLD,腈纶（含变性腈纶） · 环锭纺 · 120 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 120 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_WOVEN/RING#PLANT_FIBERS/COTTON?DTEX=120@WORLD,棉 · 环锭纺（机织用精梳棉） · 120 dtex,"Spinning to yarn, Coton Combed - Weaving, 120 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#CELLULOSE_BASED_FIBERS/MMCF?DTEX=120@WORLD,人造纤维素纤维 · 转杯纺 · 120 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 120 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYESTER?DTEX=200@WORLD,聚酯（涤纶） · 转杯纺 · 200 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 200 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/DRY#SYNTHETIC_FIBERS/MICROFIBER@WORLD,超细纤维 · 干法纺丝,"Spinning to filament, Extruder Polymer Filaments, Dry Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WOOLEN?DTEX=370@WORLD,粗梳羊毛 · 环锭纺 · 370 dtex,"Spinning to yarn, Woollen Wool, 370 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=45@WORLD,聚酰胺（锦纶） · 转杯纺 · 45 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 45 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#ANIMAL_FIBERS/SILK?DTEX=45@WORLD,蚕丝 · 转杯纺 · 45 dtex,"Spinning to yarn, Spun Silk, 45 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_WOVEN/RING#PLANT_FIBERS/COTTON?DTEX=70@WORLD,棉 · 环锭纺（机织用精梳棉） · 70 dtex,"Spinning to yarn, Coton Combed - Weaving, 70 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ACRYLIC?DTEX=150@WORLD,腈纶（含变性腈纶） · 环锭纺 · 150 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 150 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/SILK?DTEX=300@WORLD,蚕丝 · 环锭纺 · 300 dtex,"Spinning to yarn, Spun Silk, 300 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=170@WORLD,聚酰胺（锦纶） · 转杯纺 · 170 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 170 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#ANIMAL_FIBERS/SILK?DTEX=200@WORLD,蚕丝 · 转杯纺 · 200 dtex,"Spinning to yarn, Spun Silk, 200 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=45@WORLD,聚酰胺（锦纶） · 环锭纺 · 45 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 45 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#CELLULOSE_BASED_FIBERS/MMCF?DTEX=200@WORLD,人造纤维素纤维 · 转杯纺 · 200 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 200 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_KNIT/RING#PLANT_FIBERS/COTTON?DTEX=150@WORLD,棉 · 环锭纺（针织用精梳棉） · 150 dtex,"Spinning to yarn, Cotton Combed - Knitting, 150 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=300@WORLD,聚酰胺（锦纶） · 转杯纺 · 300 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 300 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ELASTANE?DTEX=330@WORLD,氨纶 · 环锭纺 · 330 dtex,"Spinning to yarn, Elastane (Spandex/Lycra), 330 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/WET#CELLULOSE_BASED_FIBERS/MMCF@WORLD,人造纤维素纤维 · 湿法纺丝,"Spinning to filament, MMCF (Rayon, Viscose, Lyocell), Wet Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ACRYLIC?DTEX=200@WORLD,腈纶（含变性腈纶） · 环锭纺 · 200 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 200 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#CELLULOSE_BASED_FIBERS/MMCF?DTEX=120@WORLD,人造纤维素纤维 · 环锭纺 · 120 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 120 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYESTER?DTEX=120@WORLD,聚酯（涤纶） · 转杯纺 · 120 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 120 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYESTER?DTEX=300@WORLD,聚酯（涤纶） · 环锭纺 · 300 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 300 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ELASTANE?DTEX=300@WORLD,氨纶 · 环锭纺 · 300 dtex,"Spinning to yarn, Elastane (Spandex/Lycra), 300 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WORSTED?DTEX=170@WORLD,精梳羊毛 · 环锭纺 · 170 dtex,"Spinning to yarn, Worsted Wool, 170 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ELASTANE?DTEX=45@WORLD,氨纶 · 环锭纺 · 45 dtex,"Spinning to yarn, Elastane (Spandex/Lycra), 45 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_WOVEN/RING#PLANT_FIBERS/COTTON?DTEX=200@WORLD,棉 · 环锭纺（机织用精梳棉） · 200 dtex,"Spinning to yarn, Coton Combed - Weaving, 200 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/SILK?DTEX=120@WORLD,蚕丝 · 环锭纺 · 120 dtex,"Spinning to yarn, Spun Silk, 120 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ACRYLIC?DTEX=70@WORLD,腈纶（含变性腈纶） · 环锭纺 · 70 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 70 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/SILK?DTEX=70@WORLD,蚕丝 · 环锭纺 · 70 dtex,"Spinning to yarn, Spun Silk, 70 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WORSTED?DTEX=45@WORLD,精梳羊毛 · 环锭纺 · 45 dtex,"Spinning to yarn, Worsted Wool, 45 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#PLANT_FIBERS/COTTON?DTEX=45@WORLD,棉 · 转杯纺 · 45 dtex,"Spinning to yarn, Cotton, 45 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/ACRYLIC?DTEX=370@WORLD,腈纶（含变性腈纶） · 转杯纺 · 370 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 370 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#ANIMAL_FIBERS/SILK?DTEX=330@WORLD,蚕丝 · 转杯纺 · 330 dtex,"Spinning to yarn, Spun Silk, 330 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WOOLEN?DTEX=70@WORLD,粗梳羊毛 · 环锭纺 · 70 dtex,"Spinning to yarn, Woollen Wool, 70 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=70@WORLD,聚酰胺（锦纶） · 环锭纺 · 70 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 70 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYESTER?DTEX=45@WORLD,聚酯（涤纶） · 转杯纺 · 45 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 45 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_DTY#SYNTHETIC_FIBERS/POLYESTER@WORLD,聚酯（涤纶） · 熔融纺丝（拉伸变形丝 DTY）,"Spinning to filament, Polyester (PET, PBT, PTT, PLA etc), Melt Spinning (FDY/DTY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WOOLEN?DTEX=170@WORLD,粗梳羊毛 · 环锭纺 · 170 dtex,"Spinning to yarn, Woollen Wool, 170 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=150@WORLD,聚酰胺（锦纶） · 环锭纺 · 150 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 150 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=200@WORLD,聚酰胺（锦纶） · 环锭纺 · 200 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 200 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYESTER?DTEX=70@WORLD,聚酯（涤纶） · 转杯纺 · 70 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 70 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WOOLEN?DTEX=120@WORLD,粗梳羊毛 · 环锭纺 · 120 dtex,"Spinning to yarn, Woollen Wool, 120 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=370@WORLD,聚酰胺（锦纶） · 环锭纺 · 370 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 370 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYESTER?DTEX=170@WORLD,聚酯（涤纶） · 转杯纺 · 170 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 170 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ACRYLIC?DTEX=300@WORLD,腈纶（含变性腈纶） · 环锭纺 · 300 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 300 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ELASTANE?DTEX=370@WORLD,氨纶 · 环锭纺 · 370 dtex,"Spinning to yarn, Elastane (Spandex/Lycra), 370 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_DTY#CELLULOSE_BASED_FIBERS/ACETATE@WORLD,醋酸纤维 · 熔融纺丝（拉伸变形丝 DTY）,"Spinning to filament, Acetate, Triacetate, Melt Spinning (FDY/DTY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_WOVEN/RING#PLANT_FIBERS/COTTON?DTEX=45@WORLD,棉 · 环锭纺（机织用精梳棉） · 45 dtex,"Spinning to yarn, Coton Combed - Weaving, 45 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_WOVEN/RING#PLANT_FIBERS/COTTON?DTEX=330@WORLD,棉 · 环锭纺（机织用精梳棉） · 330 dtex,"Spinning to yarn, Coton Combed - Weaving, 330 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WOOLEN?DTEX=45@WORLD,粗梳羊毛 · 环锭纺 · 45 dtex,"Spinning to yarn, Woollen Wool, 45 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#CELLULOSE_BASED_FIBERS/MMCF?DTEX=70@WORLD,人造纤维素纤维 · 转杯纺 · 70 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 70 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#PLANT_FIBERS/COTTON?DTEX=370@WORLD,棉 · 转杯纺 · 370 dtex,"Spinning to yarn, Cotton, 370 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=170@WORLD,聚酰胺（锦纶） · 环锭纺 · 170 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 170 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#PLANT_FIBERS/COTTON?DTEX=300@WORLD,棉 · 转杯纺 · 300 dtex,"Spinning to yarn, Cotton, 300 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_KNIT/RING#PLANT_FIBERS/COTTON?DTEX=45@WORLD,棉 · 环锭纺（针织用精梳棉） · 45 dtex,"Spinning to yarn, Cotton Combed - Knitting, 45 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=200@WORLD,聚酰胺（锦纶） · 转杯纺 · 200 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 200 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/SILK?DTEX=370@WORLD,蚕丝 · 环锭纺 · 370 dtex,"Spinning to yarn, Spun Silk, 370 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ACRYLIC?DTEX=170@WORLD,腈纶（含变性腈纶） · 环锭纺 · 170 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 170 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYESTER?DTEX=45@WORLD,聚酯（涤纶） · 环锭纺 · 45 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 45 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WORSTED?DTEX=120@WORLD,精梳羊毛 · 环锭纺 · 120 dtex,"Spinning to yarn, Worsted Wool, 120 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYESTER?DTEX=200@WORLD,聚酯（涤纶） · 环锭纺 · 200 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 200 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#CELLULOSE_BASED_FIBERS/MMCF?DTEX=150@WORLD,人造纤维素纤维 · 环锭纺 · 150 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 150 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WORSTED?DTEX=370@WORLD,精梳羊毛 · 环锭纺 · 370 dtex,"Spinning to yarn, Worsted Wool, 370 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WORSTED?DTEX=200@WORLD,精梳羊毛 · 环锭纺 · 200 dtex,"Spinning to yarn, Worsted Wool, 200 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_KNIT/RING#PLANT_FIBERS/COTTON?DTEX=300@WORLD,棉 · 环锭纺（针织用精梳棉） · 300 dtex,"Spinning to yarn, Cotton Combed - Knitting, 300 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_KNIT/RING#PLANT_FIBERS/COTTON?DTEX=120@WORLD,棉 · 环锭纺（针织用精梳棉） · 120 dtex,"Spinning to yarn, Cotton Combed - Knitting, 120 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#CELLULOSE_BASED_FIBERS/MMCF?DTEX=300@WORLD,人造纤维素纤维 · 环锭纺 · 300 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 300 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_DTY#SYNTHETIC_FIBERS/MICROFIBER@WORLD,超细纤维 · 熔融纺丝（拉伸变形丝 DTY）,"Spinning to filament, Microfibers, Melt Spinning (FDY/DTY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ACRYLIC?DTEX=370@WORLD,腈纶（含变性腈纶） · 环锭纺 · 370 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 370 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_WOVEN/RING#PLANT_FIBERS/COTTON?DTEX=300@WORLD,棉 · 环锭纺（机织用精梳棉） · 300 dtex,"Spinning to yarn, Coton Combed - Weaving, 300 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=330@WORLD,聚酰胺（锦纶） · 转杯纺 · 330 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 330 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_KNIT/RING#PLANT_FIBERS/COTTON?DTEX=330@WORLD,棉 · 环锭纺（针织用精梳棉） · 330 dtex,"Spinning to yarn, Cotton Combed - Knitting, 330 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYESTER?DTEX=300@WORLD,聚酯（涤纶） · 转杯纺 · 300 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 300 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/SILK?DTEX=45@WORLD,蚕丝 · 环锭纺 · 45 dtex,"Spinning to yarn, Spun Silk, 45 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_KNIT/RING#PLANT_FIBERS/COTTON?DTEX=370@WORLD,棉 · 环锭纺（针织用精梳棉） · 370 dtex,"Spinning to yarn, Cotton Combed - Knitting, 370 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#CELLULOSE_BASED_FIBERS/MMCF?DTEX=170@WORLD,人造纤维素纤维 · 环锭纺 · 170 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 170 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/ACRYLIC?DTEX=300@WORLD,腈纶（含变性腈纶） · 转杯纺 · 300 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 300 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#CELLULOSE_BASED_FIBERS/MMCF?DTEX=330@WORLD,人造纤维素纤维 · 转杯纺 · 330 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 330 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#CELLULOSE_BASED_FIBERS/MMCF?DTEX=330@WORLD,人造纤维素纤维 · 环锭纺 · 330 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 330 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=120@WORLD,聚酰胺（锦纶） · 环锭纺 · 120 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 120 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=300@WORLD,聚酰胺（锦纶） · 环锭纺 · 300 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 300 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=330@WORLD,聚酰胺（锦纶） · 环锭纺 · 330 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 330 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_WOVEN/RING#PLANT_FIBERS/COTTON?DTEX=370@WORLD,棉 · 环锭纺（机织用精梳棉） · 370 dtex,"Spinning to yarn, Coton Combed - Weaving, 370 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WOOLEN?DTEX=200@WORLD,粗梳羊毛 · 环锭纺 · 200 dtex,"Spinning to yarn, Woollen Wool, 200 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/SILK?DTEX=170@WORLD,蚕丝 · 环锭纺 · 170 dtex,"Spinning to yarn, Spun Silk, 170 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/ACRYLIC?DTEX=330@WORLD,腈纶（含变性腈纶） · 转杯纺 · 330 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 330 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYESTER?DTEX=330@WORLD,聚酯（涤纶） · 转杯纺 · 330 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 330 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYESTER?DTEX=330@WORLD,聚酯（涤纶） · 环锭纺 · 330 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 330 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_POY#SYNTHETIC_FIBERS/POLYESTER@WORLD,聚酯（涤纶） · 熔融纺丝（预取向丝 POY）,"Spinning to filament, Polyester (PET, PBT, PTT, PLA etc), Melt Spinning (POY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/DRY#SYNTHETIC_FIBERS/ELASTANE@WORLD,氨纶 · 干法纺丝,"Spinning to filament, Elastane (Spandex/Lycra), Dry Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYESTER?DTEX=150@WORLD,聚酯（涤纶） · 环锭纺 · 150 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 150 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/ACRYLIC?DTEX=170@WORLD,腈纶（含变性腈纶） · 转杯纺 · 170 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 170 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#CELLULOSE_BASED_FIBERS/MMCF?DTEX=45@WORLD,人造纤维素纤维 · 环锭纺 · 45 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 45 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#ANIMAL_FIBERS/SILK?DTEX=300@WORLD,蚕丝 · 转杯纺 · 300 dtex,"Spinning to yarn, Spun Silk, 300 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#CELLULOSE_BASED_FIBERS/MMCF?DTEX=370@WORLD,人造纤维素纤维 · 转杯纺 · 370 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 370 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#ANIMAL_FIBERS/SILK?DTEX=70@WORLD,蚕丝 · 转杯纺 · 70 dtex,"Spinning to yarn, Spun Silk, 70 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ACRYLIC?DTEX=45@WORLD,腈纶（含变性腈纶） · 环锭纺 · 45 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 45 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#CELLULOSE_BASED_FIBERS/MMCF?DTEX=70@WORLD,人造纤维素纤维 · 环锭纺 · 70 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 70 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ELASTANE?DTEX=120@WORLD,氨纶 · 环锭纺 · 120 dtex,"Spinning to yarn, Elastane (Spandex/Lycra), 120 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYESTER?DTEX=370@WORLD,聚酯（涤纶） · 转杯纺 · 370 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 370 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_KNIT/RING#PLANT_FIBERS/COTTON?DTEX=200@WORLD,棉 · 环锭纺（针织用精梳棉） · 200 dtex,"Spinning to yarn, Cotton Combed - Knitting, 200 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#PLANT_FIBERS/COTTON?DTEX=170@WORLD,棉 · 转杯纺 · 170 dtex,"Spinning to yarn, Cotton, 170 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/SILK?DTEX=330@WORLD,蚕丝 · 环锭纺 · 330 dtex,"Spinning to yarn, Spun Silk, 330 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_DTY#SYNTHETIC_FIBERS/ACRYLIC@WORLD,腈纶（含变性腈纶） · 熔融纺丝（拉伸变形丝 DTY）,"Spinning to filament, Acrylic, Modacrylic, PAN (Polyacrylonitrile), Melt Spinning (FDY/DTY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ACRYLIC?DTEX=330@WORLD,腈纶（含变性腈纶） · 环锭纺 · 330 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 330 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_POY#SYNTHETIC_FIBERS/POLYAMIDE@WORLD,聚酰胺（锦纶） · 熔融纺丝（预取向丝 POY）,"Spinning to filament, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), Melt Spinning (POY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=370@WORLD,聚酰胺（锦纶） · 转杯纺 · 370 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 370 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#CELLULOSE_BASED_FIBERS/MMCF?DTEX=170@WORLD,人造纤维素纤维 · 转杯纺 · 170 dtex,"Spinning to yarn, MMCF (Rayon, Viscose, Lyocell), 170 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/ACRYLIC?DTEX=45@WORLD,腈纶（含变性腈纶） · 转杯纺 · 45 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 45 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WORSTED?DTEX=150@WORLD,精梳羊毛 · 环锭纺 · 150 dtex,"Spinning to yarn, Worsted Wool, 150 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WORSTED?DTEX=330@WORLD,精梳羊毛 · 环锭纺 · 330 dtex,"Spinning to yarn, Worsted Wool, 330 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYESTER?DTEX=170@WORLD,聚酯（涤纶） · 环锭纺 · 170 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 170 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYESTER?DTEX=370@WORLD,聚酯（涤纶） · 环锭纺 · 370 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 370 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/SILK?DTEX=200@WORLD,蚕丝 · 环锭纺 · 200 dtex,"Spinning to yarn, Spun Silk, 200 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#PLANT_FIBERS/COTTON?DTEX=150@WORLD,棉 · 转杯纺 · 150 dtex,"Spinning to yarn, Cotton, 150 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WORSTED?DTEX=70@WORLD,精梳羊毛 · 环锭纺 · 70 dtex,"Spinning to yarn, Worsted Wool, 70 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/FOR_KNIT/RING#PLANT_FIBERS/COTTON?DTEX=170@WORLD,棉 · 环锭纺（针织用精梳棉） · 170 dtex,"Spinning to yarn, Cotton Combed - Knitting, 170 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#PLANT_FIBERS/COTTON?DTEX=200@WORLD,棉 · 转杯纺 · 200 dtex,"Spinning to yarn, Cotton, 200 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYESTER?DTEX=150@WORLD,聚酯（涤纶） · 转杯纺 · 150 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 150 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/ACRYLIC?DTEX=150@WORLD,腈纶（含变性腈纶） · 转杯纺 · 150 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 150 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/POLYAMIDE?DTEX=150@WORLD,聚酰胺（锦纶） · 转杯纺 · 150 dtex,"Spinning to yarn, Polyamides (Nylon 6, Nylon 6.6, PA 11, PA 12,…), 150 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ELASTANE?DTEX=200@WORLD,氨纶 · 环锭纺 · 200 dtex,"Spinning to yarn, Elastane (Spandex/Lycra), 200 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#ANIMAL_FIBERS/WOOL_WOOLEN?DTEX=330@WORLD,粗梳羊毛 · 环锭纺 · 330 dtex,"Spinning to yarn, Woollen Wool, 330 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/OPEN_END#SYNTHETIC_FIBERS/ACRYLIC?DTEX=120@WORLD,腈纶（含变性腈纶） · 转杯纺 · 120 dtex,"Spinning to yarn, Acrylic, Modacrylic, PAN (Polyacrylonitrile), 120 dtex, Open-End (Rotor)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/MELT_POY#SYNTHETIC_FIBERS/MICROFIBER@WORLD,超细纤维 · 熔融纺丝（预取向丝 POY）,"Spinning to filament, Microfibers, Melt Spinning (POY)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ELASTANE?DTEX=70@WORLD,氨纶 · 环锭纺 · 70 dtex,"Spinning to yarn, Elastane (Spandex/Lycra), 70 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/ELASTANE?DTEX=170@WORLD,氨纶 · 环锭纺 · 170 dtex,"Spinning to yarn, Elastane (Spandex/Lycra), 170 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:YARN_FORMATION/SPINNING/RING#SYNTHETIC_FIBERS/POLYESTER?DTEX=70@WORLD,聚酯（涤纶） · 环锭纺 · 70 dtex,"Spinning to yarn, Polyester (PET, PBT, PTT, PLA etc), 70 dtex, Ring Spinning",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COATING/SYNTHETIC_PU_LEATHER#DMF_FREE@WORLD,PU 合成革 · 无 DMF（水性）,"Synthetic PU Leather, DMF-free (water-borne)",中文展示映射；原文同时保留
+MATERIAL_PROCESS_STEP:COATING/SYNTHETIC_PU_LEATHER#DMF_BASED@WORLD,PU 合成革 · 含 DMF（溶剂型）,"Synthetic PU Leather, DMF-based (solvent-based)",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#JACKET@WORLD,通用装配 · 夹克,"Generic assembly, Jacket",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#SWIMWEAR@WORLD,通用装配 · 泳装,"Generic assembly, Swimwear",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#TSHIRT@WORLD,通用装配 · T 恤,"Generic assembly, Tshirt",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#SHORTS@WORLD,通用装配 · 短裤,"Generic assembly, Shorts",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#UNDERWEAR@WORLD,通用装配 · 内衣,"Generic assembly, Underwear",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#HOUSEWARE@WORLD,通用装配 · 家纺用品,"Generic assembly, Houseware",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#SUIT@WORLD,通用装配 · 套装,"Generic assembly, Suit",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#DRESS@WORLD,通用装配 · 连衣裙,"Generic assembly, Dress",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#SHIRT@WORLD,通用装配 · 衬衫,"Generic assembly, Shirts",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#PANTS@WORLD,通用装配 · 长裤,"Generic assembly, Pants",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#BELT_SHAWL_HAT_BAG_SCARF@WORLD,通用装配 · 腰带/披肩/帽/包/围巾,"Generic assembly, Belt-shawl-hat-bag-scarf",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#BAG@WORLD,通用装配 · 包袋,"Generic assembly, Bag",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#SKIRT@WORLD,通用装配 · 半身裙,"Generic assembly, Skirts",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#ACCESSORY@WORLD,通用装配 · 配饰,"Generic assembly, Accesory",中文展示映射；原文同时保留
+PRODUCT_PROCESS_STEP:ASSEMBLY/GENERIC#SWEATER@WORLD,通用装配 · 毛衫,"Generic assembly, Sweater",中文展示映射；原文同时保留
+USE_PHASE:WASHING/HAND#LIQUID_DETERGENT@GLO,手洗 (液体洗涤剂),Hand wash (liquid),中文展示映射；原文同时保留
+USE_PHASE:WASHING/HAND#POWDER_DETERGENT@GLO,手洗 (粉体洗涤剂),Hand wash (powder),中文展示映射；原文同时保留
+USE_PHASE:WASHING/MACHINE/30C#LIQUID_DETERGENT@GLO,机洗 30° (液体洗涤剂),Machine 30° (liquid),中文展示映射；原文同时保留
+USE_PHASE:WASHING/MACHINE/30C#POWDER_DETERGENT@GLO,机洗 30° (粉体洗涤剂),Machine 30° (powder),中文展示映射；原文同时保留
+USE_PHASE:WASHING/MACHINE/40C#LIQUID_DETERGENT@GLO,机洗 40° (液体洗涤剂),Machine 40° (liquid),中文展示映射；原文同时保留
+USE_PHASE:WASHING/MACHINE/40C#POWDER_DETERGENT@GLO,机洗 40° (粉体洗涤剂),Machine 40° (powder),中文展示映射；原文同时保留
+USE_PHASE:WASHING/MACHINE/60C#LIQUID_DETERGENT@GLO,机洗 60° (液体洗涤剂),Machine 60° (liquid),中文展示映射；原文同时保留
+USE_PHASE:WASHING/MACHINE/60C#POWDER_DETERGENT@GLO,机洗 60° (粉体洗涤剂),Machine 60° (powder),中文展示映射；原文同时保留
+USE_PHASE:WASHING/DRY_CLEANING@GLO,干洗,Dry cleaning,中文展示映射；原文同时保留
+USE_PHASE:DRYING/TUMBLE#COTTON/CLOSET_DRY@GLO,滚筒干燥 (棉 · 可收纳干度),"Tumble dry (cotton, closet dry)",中文展示映射；原文同时保留
+USE_PHASE:DRYING/TUMBLE#COTTON/IRON_DRY@GLO,滚筒干燥 (棉 · 可熨烫干度),"Tumble dry (cotton, iron dry)",中文展示映射；原文同时保留
+USE_PHASE:DRYING/TUMBLE#SYNTHETICS/CLOSET_DRY@GLO,滚筒干燥 (合成纤维 · 可收纳干度),"Tumble dry (synthetics, closet dry)",中文展示映射；原文同时保留
+USE_PHASE:IRONING@GLO,熨烫（每分钟）,Ironing (1 min),中文展示映射；原文同时保留
+MATERIAL:DETERGENT#LIQUID@GLO,液体洗涤剂生产（每 kg）,Liquid detergent (1 kg),中文展示映射；原文同时保留
+MATERIAL:DETERGENT#POWDER@GLO,粉体洗涤剂生产（每 kg）,Powder detergent (1 kg),中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/SILK#ANY@WORLD,蚕丝织造,"weaving, silk service, Fabric, Silk production mix, at plant service, Fabric, Silk",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/AIR_JET#ANY?DTEX=170@WORLD,喷气织造 · 170 dtex,"weaving, 170 dtex-153 denier-34/1 ne-59 nm service, Fabric, Weaved production, at plant service, Fabric, Weaved",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:PREPARATION/SIZING/NATURAL_FIBERS#ANY@WORLD,天然纤维织物上浆,"Fabric sizing, natural fibers",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/WATER_JET#ANY@WORLD,喷水织造,"weaving, generic water-jet service, Fabric,Weaved water-jet loom production mix, at plant service, Fabric,Weaved water-jet loom",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/RAPIER#ANY@WORLD,剑杆织造,"weaving, rapier service, Fabric, Weaved by rapier loom production mix, at plant service, Fabric, Weaved by rapier loom",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/JACQUARD#ANY@WORLD,提花织造,"weaving, jacquard service, Fabric, Weaved by jacquard loom production mix, at plant service, Fabric, Weaved by jacquard loom",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/AIR_JET#ANY?DTEX=200@WORLD,喷气织造 · 200 dtex,"weaving, 200 dtex-180 denier-30/1 ne-50 nm service, Fabric, Weaved production, at plant service, Fabric, Weaved",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/AIR_JET#ANY?DTEX=150@WORLD,喷气织造 · 150 dtex,"weaving, 150 dtex-135 denier-40/1 ne-67 nm service, Fabric, Weaved production, at plant service, Fabric, Weaved",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/AIR_JET#ANY?DTEX=70@WORLD,喷气织造 · 70 dtex,"weaving, 70 dtex-63 denier-84/1 ne-143 nm service, Fabric, Weaved production, at plant service, Fabric, Weaved",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/AIR_JET#ANY?DTEX=120@WORLD,喷气织造 · 120 dtex,"weaving, 120 dtex-108 denier-49/1 ne-83 nm service, Fabric, Weaved production, at plant service, Fabric, Weaved",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/AIR_JET#ANY?DTEX=330@WORLD,喷气织造 · 330 dtex,"weaving, 330 dtex-297 denier-18/1 ne-30 nm service, Fabric, Weaved production, at plant service, Fabric, Weaved",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/BACKING#ANY@WORLD,底布织造,"weaving of primary backing service, Backing fabric, weaved production mix, at plant service, Backing fabric, weaved",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/AIR_JET#ANY?DTEX=45@WORLD,喷气织造 · 45 dtex,"weaving, 45 dtex-41 denier- 130/1 ne-222 nm service, Fabric, Weaved production, at plant service, Fabric, Weaved",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/CARPET#ANY@WORLD,地毯织造,"weaving of carpet production, at plant Carpet, Weaved",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/AIR_JET#ANY?DTEX=300@WORLD,喷气织造 · 300 dtex,"weaving, 300 dtex-270 denier-20/1 ne-33 nm service, Fabric, Weaved production, at plant service, Fabric, Weaved",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/SHUTTLE#ANY@WORLD,有梭织造,"weaving, shuttle service, Fabric, Weaved by shuttle loom production mix, at plant service, Fabric, Weaved by shuttle loom",中文展示映射；原文同时保留
+COMPONENT_PROCESS_STEP:TEXTILE_FORMATION/WEAVING/AIR_JET#ANY?DTEX=370@WORLD,喷气织造 · 370 dtex,"weaving, 370 dtex-333 denier-16/1 ne-27 nm service, Fabric, Weaved production, at plant service, Fabric, Weaved",中文展示映射；原文同时保留

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "spinning",
+    "name": "纺纱与长丝加工",
+    "unit": "kg",
+    "boundary": "纤维进入，纱线或长丝产出；加工服务，不含纤维生产。",
+    "limitations": "工艺、原料和纱支须对应；不能把 Cotton 纺纱当作棉种植因子。",
+    "evidence": "upstream/carbonfact/datasets/spinning/README.md"
+  },
+  {
+    "id": "knitting",
+    "name": "针织",
+    "unit": "kg",
+    "boundary": "纱线到针织物；按所选针织设备及条件。",
+    "limitations": "圆机 dtex 记录分档；公开电耗公式不直接用于替换已发布影响值。",
+    "evidence": "upstream/carbonfact/datasets/knitting/README.md"
+  },
+  {
+    "id": "weaving",
+    "name": "机织与上浆",
+    "unit": "kg",
+    "boundary": "织造服务；部分前景说明包含准备环节，另有单独上浆记录。",
+    "limitations": "织造与单独上浆可能重叠；具体边界按专属说明复查。",
+    "evidence": "upstream/carbonfact/datasets/weaving/README.md"
+  },
+  {
+    "id": "dyeing",
+    "name": "染色",
+    "unit": "kg",
+    "boundary": "核心染色、后洗/漂洗、相关干燥与轧液等；排除前处理、防缩及紧缩。",
+    "limitations": "中等色深代表工艺；染料存在背景代理。材料生产和损失材料去向需模型外处理。",
+    "evidence": "upstream/carbonfact/datasets/dyeing/README.md"
+  },
+  {
+    "id": "finishing",
+    "name": "前处理与整理",
+    "unit": "kg",
+    "boundary": "所列单项前处理或整理操作；专属方法学第 2 页为边界依据。",
+    "limitations": "热定型按 PES 190°C，热固着按棉 160°C；ANY 标签不代表适用所有材料。专属说明排除资本品。",
+    "evidence": "upstream/carbonfact/datasets/finishing/README.md"
+  },
+  {
+    "id": "printing",
+    "name": "印花",
+    "unit": "kg",
+    "boundary": "对应印花技术、对象及染料/颜料的加工服务。",
+    "limitations": "需核对固色、洗涤、烘干与染色/整理的边界；不能只凭工序名拼接。",
+    "evidence": "upstream/carbonfact/datasets/printing/README.md"
+  },
+  {
+    "id": "textile-assembly",
+    "name": "纺织品装配",
+    "unit": "kg",
+    "boundary": "每 kg 装配产品的裁剪/缝制/整烫服务；专属说明含缝线、包装与裁剪损失。",
+    "limitations": "与通用损耗说明存在差异，须复核外置处理与包装是否重复；不等于含布料生产的完整成衣因子。",
+    "evidence": "upstream/carbonfact/datasets/textile-assembly/README.md"
+  },
+  {
+    "id": "shoe-assembly",
+    "name": "鞋类装配",
+    "unit": "mixed",
+    "boundary": "运动鞋每双，女靴每 kg；所列电力情景分别保留。",
+    "limitations": "禁止把双自动换成 kg；总投入字段不能用于本应用的单一织物质量链。",
+    "evidence": "upstream/carbonfact/datasets/shoe-assembly/sneaker/README.md"
+  },
+  {
+    "id": "synthetic-pu-leather",
+    "name": "PU 合成革",
+    "unit": "m2",
+    "boundary": "1 m² 合成革，包括对应基布及制造系统。",
+    "limitations": "水性/溶剂型分别使用；面积质量需实测，不能默认 1 m² = 1 kg；与基布单独计算可能重叠。",
+    "evidence": "upstream/carbonfact/datasets/synthetic-pu-leather/README.md"
+  },
+  {
+    "id": "natural-rubber",
+    "name": "天然橡胶",
+    "unit": "kg",
+    "boundary": "指定产地 STR 天然橡胶，摇篮到工厂门，含土地利用变化情景。",
+    "limitations": "缺 DQR 与投入产出字段；产地不同不直接代表企业供应链。",
+    "evidence": "upstream/carbonfact/datasets/natural-rubber/README.md"
+  },
+  {
+    "id": "non-woven",
+    "name": "非织造布",
+    "unit": "kg",
+    "boundary": "湿法水刺纤维素或熔喷聚丙烯对应成布工艺。",
+    "limitations": "纤维组成和成布路线须对应；原 CSV 空记录已报告，原文件未改。",
+    "evidence": "upstream/carbonfact/datasets/non-woven/README.md"
+  },
+  {
+    "id": "use-phase",
+    "name": "使用阶段与洗涤剂",
+    "unit": "kg",
+    "boundary": "洗涤、干燥、熨烫或洗涤剂；功能单位逐条取 CSV。",
+    "limitations": "熨烫每分钟，洗涤剂每 kg，洗/干每 kg 织物；欧洲背景不能因 @GLO 解释成各国实测。",
+    "evidence": "upstream/carbonfact/datasets/use-phase/README.md"
+  }
+]

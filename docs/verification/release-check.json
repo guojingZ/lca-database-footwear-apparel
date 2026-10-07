@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "source_files_compared_with_original_zip": 116,
+  "markdown_local_links_checked": 338,
+  "factor_records": 304,
+  "impact_indicators_per_record": 16,
+  "chinese_names": 304,
+  "catalog_digest": "9ed63a5e7126182df8a80c393e332a8032587c1a5c0e857041ffb6049c80086e",
+  "empty_csv_records_reported": 17,
+  "templates": {
+    "tshirt": {
+      "status": "partial",
+      "subtotal_ghg": "1.7587612014455535026925731984",
+      "missing_items": 12
+    },
+    "factory": {
+      "status": "partial",
+      "subtotal_ghg": "665.4991447739746282000",
+      "missing_items": 2
+    },
+    "inventory": {
+      "status": "partial",
+      "subtotal_ghg": null,
+      "missing_items": 15
+    }
+  },
+  "errors": []
+}

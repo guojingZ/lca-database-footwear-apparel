@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "catalog_digest": "9ed63a5e7126182df8a80c393e332a8032587c1a5c0e857041ffb6049c80086e",
+  "boundary_reviewed": false,
+  "external_factors": [],
+  "waste_factor_id": null,
+  "additional_items": [],
+  "materials": [],
+  "name": "企业染色投入清单空白示例",
+  "weight_g": "100000",
+  "result_basis": "batch",
+  "boundary": "染色投入清单；电/热/水/染料/助剂/废水；来料布生产另属上游",
+  "include_materials": false,
+  "chain": [
+    {
+      "id": "dyeing",
+      "name": "企业染色清单",
+      "mode": "inventory",
+      "factor_id": null,
+      "ratio_mode": "ratio",
+      "input_ratio": "1",
+      "ratio_note": "空白结构暂设 1；需实测投入产出",
+      "inventory_complete": false,
+      "inventory": [
+        {
+          "name": "电力",
+          "quantity": null,
+          "unit": "kWh",
+          "factor_id": null
+        },
+        {
+          "name": "热",
+          "quantity": null,
+          "unit": "MJ",
+          "factor_id": null
+        },
+        {
+          "name": "工艺水",
+          "quantity": null,
+          "unit": "L",
+          "factor_id": null
+        },
+        {
+          "name": "染料",
+          "quantity": null,
+          "unit": "kg",
+          "factor_id": null
+        },
+        {
+          "name": "助剂",
+          "quantity": null,
+          "unit": "kg",
+          "factor_id": null
+        },
+        {
+          "name": "废水处理",
+          "quantity": null,
+          "unit": "m3",
+          "factor_id": null
+        }
+      ]
+    }
+  ],
+  "required_stages": [
+    {
+      "id": "dyeing",
+      "name": "企业染色清单"
+    }
+  ]
+}

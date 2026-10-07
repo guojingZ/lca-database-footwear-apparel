@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "catalog_digest": "9ed63a5e7126182df8a80c393e332a8032587c1a5c0e857041ffb6049c80086e",
+  "boundary_reviewed": false,
+  "external_factors": [],
+  "waste_factor_id": null,
+  "additional_items": [
+    {
+      "id": "trims",
+      "name": "其他配件/辅料（核对内含缝线）",
+      "quantity": null,
+      "unit": "kg",
+      "factor_id": null
+    },
+    {
+      "id": "packaging",
+      "name": "补充包装（仅内含范围外）",
+      "quantity": null,
+      "unit": "kg",
+      "factor_id": null
+    },
+    {
+      "id": "transport",
+      "name": "边界内运输",
+      "quantity": null,
+      "unit": "tkm",
+      "factor_id": null
+    }
+  ],
+  "materials": [
+    {
+      "name": "有机棉（因子待补）",
+      "share_percent": "60",
+      "factor_id": null
+    },
+    {
+      "name": "再生棉（因子待补）",
+      "share_percent": "40",
+      "factor_id": null
+    }
+  ],
+  "name": "140 g 棉 T 恤结构模板",
+  "weight_g": "140",
+  "result_basis": "item",
+  "boundary": "原料至成衣出厂；单一主布链，配件/包装/运输另列",
+  "include_materials": true,
+  "chain": [
+    {
+      "id": "spinning",
+      "name": "纺纱",
+      "mode": "factor",
+      "factor_id": "cf-fa0cd3b1123b20f0",
+      "ratio_mode": "factor"
+    },
+    {
+      "id": "knitting",
+      "name": "圆机针织",
+      "mode": "factor",
+      "factor_id": "cf-eb61b43ed90890eb",
+      "ratio_mode": "factor"
+    },
+    {
+      "id": "preparation",
+      "name": "棉前处理/漂白（因子待补）",
+      "mode": "factor",
+      "factor_id": null,
+      "ratio_mode": "ratio",
+      "input_ratio": "1",
+      "ratio_note": "结构演示暂按不损失质量；需以真实数据替换"
+    },
+    {
+      "id": "dyeing",
+      "name": "活性染色",
+      "mode": "factor",
+      "factor_id": "cf-951c0b29eb12a7d1",
+      "ratio_mode": "factor"
+    },
+    {
+      "id": "finishing",
+      "name": "柔软整理",
+      "mode": "factor",
+      "factor_id": "cf-6fd5b50cb039c688",
+      "ratio_mode": "factor"
+    },
+    {
+      "id": "assembly",
+      "name": "T 恤装配",
+      "mode": "factor",
+      "factor_id": "cf-c32e2f755c864b4c",
+      "ratio_mode": "factor"
+    }
+  ],
+  "required_stages": [
+    {
+      "id": "spinning",
+      "name": "纺纱"
+    },
+    {
+      "id": "knitting",
+      "name": "圆机针织"
+    },
+    {
+      "id": "preparation",
+      "name": "棉前处理/漂白（因子待补）"
+    },
+    {
+      "id": "dyeing",
+      "name": "活性染色"
+    },
+    {
+      "id": "finishing",
+      "name": "柔软整理"
+    },
+    {
+      "id": "assembly",
+      "name": "T 恤装配"
+    }
+  ]
+}

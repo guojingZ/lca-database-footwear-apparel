@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carbonfact 中文工序工作台</title><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar"><div class="brand"><span class="mark">C</span><div><strong>Carbonfact 中文工序工作台</strong><small>理解数据 · 组合工序 · 核查结果</small></div></div><span class="version">本地 v0.1.0</span></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">纺织与鞋服生命周期数据</p><h1>从一条工序，读懂一件产品</h1><p>以公开因子构建可追溯的估算。缺项保留为缺项，每个数值都能回到来源。</p></div><div class="catalog-summary"><b>304</b><span>条有效记录</span><b>12</b><span>类中文资料</span></div></div>
+    <nav class="tabs" aria-label="工作区"><button data-tab="model" class="active">产品与工序链</button><button data-tab="catalog">浏览因子</button><button data-tab="learn">中文学习入口</button></nav>
+    <div id="notice" role="status" aria-live="polite"></div>
+    <section id="model-tab" class="tab-panel"><div class="toolbar"><label>结构模板<select id="template"><option value="tshirt">一件 T 恤</option><option value="factory">一批涤纶染整</option><option value="inventory">企业投入清单</option></select></label><button id="reset-template">载入模板</button><span class="spacer"></span><button id="save-model">保存模型与证据</button><button id="load-model">加载 JSON</button><input id="file-input" type="file" accept=".json,application/json" hidden><button id="set-baseline">设为比较基线</button><button id="clear-baseline" hidden>清除基线</button></div>
+      <div class="workspace"><div class="editor"><section class="panel"><div class="panel-heading"><h2>产品与边界</h2><span>01</span></div><div id="product-fields"></div></section>
+      <section class="panel"><div class="panel-heading"><h2>主布工序链</h2><span>02</span></div><p class="hint">顺序：原料端 → 成品端。按各工序产出量计算，并从成品向前反推投入。整布加工只算一次。</p><div id="chain"></div><button id="add-stage" class="secondary">＋ 添加工序</button></section>
+      <section class="panel"><div class="panel-heading"><h2>原料、损失材料与独立项目</h2><span>03</span></div><div id="materials"></div><div id="extras"></div><button id="add-extra" class="secondary">＋ 添加独立定量项目</button></section>
+      <section class="panel"><div class="panel-heading"><h2>补充外部因子</h2><span>04</span></div><p class="hint">数值的单位是 kg CO₂e / 所选活动量单位。填写来源、适用范围和审阅状态后，可在上面的项目中选择。</p><div id="external-factors"></div><button id="add-factor" class="secondary">＋ 添加外部因子</button></section>
+      <details class="panel"><summary>高级模型 JSON（重复工序、边界复核及开发接续）</summary><p class="hint">修改后点应用。目录版本不匹配时会停止有效核算。模型字段说明见中文开发文档。</p><textarea id="model-json" rows="14" spellcheck="false"></textarea><button id="apply-json">应用 JSON</button></details>
+      </div><aside class="results"><section class="panel result-panel"><div class="panel-heading"><h2>核算结果</h2><span id="result-status" class="badge">加载中</span></div><div id="result"></div><div class="attribution">数据：<a href="https://www.carbonfact.com/database" target="_blank" rel="noopener">Carbonfact</a> · <a href="https://github.com/carbonfact/lca-database-footwear-apparel" target="_blank" rel="noopener">上游仓库</a> · CC BY-SA 4.0<br>中文归一与核算：本应用 v0.1.0；原始数值保留。</div></section></aside></div>
+    </section>
+    <section id="catalog-tab" class="tab-panel" hidden><section class="panel"><div class="panel-heading"><h2>浏览 304 条公开记录</h2><span id="filter-count"></span></div><div class="filters"><label>中文 / 英文 / 原始标识<input id="search" placeholder="例如：活性染料、热定型、200 dtex"></label><label>类别<select id="category-filter"></select></label><label>功能单位<select id="unit-filter"><option value="">全部单位</option><option value="kg">kg</option><option value="m2">m²</option><option value="pair">双</option><option value="min">分钟</option></select></label></div><p class="hint">GHG 是已计算的气候影响。IOR 指标表示电离辐射，投入产出比是另一字段。地域标签不等于可以直接替换工厂国家。</p><div class="table-wrap catalog-table"><table><thead><tr><th>中文名称 / 原始活动</th><th>类别</th><th>GHG</th><th>投入产出比</th><th>证据</th></tr></thead><tbody id="factor-rows"></tbody></table></div><div class="attribution">来源：Carbonfact；CC BY-SA 4.0。导出目录：<a href="/evidence/data/processed/factors.csv" target="_blank">CSV</a> / <a href="/evidence/data/processed/factors.json" target="_blank">JSON</a>；逐条来源见详情。</div></section></section>
+    <section id="learn-tab" class="tab-panel" hidden><div id="learn-content"></div></section>
+  </main>
+  <dialog id="factor-dialog"><div class="dialog-heading"><h2>因子与证据</h2><button id="close-dialog" aria-label="关闭详情">关闭</button></div><div id="factor-detail"></div></dialog>
+  <footer>轻量离线应用 · 数据年份未知时保留未知 · 结果范围以当前模型声明及缺项为准</footer>
+  <script src="/app.js" defer></script>
+</body>
+</html>
