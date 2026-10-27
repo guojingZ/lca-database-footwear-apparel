@@ -1,0 +1,2 @@
+# 上游是按原始字节校验的快照；Git 不对这层转换换行。
+/upstream/carbonfact/** -text

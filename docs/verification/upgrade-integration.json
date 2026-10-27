@@ -1,8 +1,52 @@
 {
   "ok": true,
+  "environment": "Linux; isolated fixtures; not the user Windows workspace",
   "old_source_files_backed_up": 116,
   "overlay_validate_passed": true,
   "git_environment_personal_files_preserved": true,
   "unknown_old_dir_files_preserved": true,
-  "repeated_apply_after_overlay_moves_nothing": true
+  "repeated_apply_after_overlay_moves_nothing": true,
+  "cases": [
+    {
+      "case": "original_bytes",
+      "source_files_backed_up": 116,
+      "exact_byte_matches": 116,
+      "line_ending_only_files": 0,
+      "backup_preserves_local_bytes": true,
+      "backup_hashes_verified": true,
+      "overlay_validate_passed": true,
+      "repeated_apply_moves_nothing": true,
+      "git_environment_personal_files_preserved": true
+    },
+    {
+      "case": "mixed_checkout",
+      "source_files_backed_up": 116,
+      "exact_byte_matches": 31,
+      "line_ending_only_files": 85,
+      "backup_preserves_local_bytes": true,
+      "backup_hashes_verified": true,
+      "overlay_validate_passed": true,
+      "repeated_apply_moves_nothing": true,
+      "git_environment_personal_files_preserved": true
+    },
+    {
+      "case": "all_text_lf",
+      "source_files_backed_up": 116,
+      "exact_byte_matches": 22,
+      "line_ending_only_files": 94,
+      "backup_preserves_local_bytes": true,
+      "backup_hashes_verified": true,
+      "overlay_validate_passed": true,
+      "repeated_apply_moves_nothing": true,
+      "git_environment_personal_files_preserved": true
+    }
+  ],
+  "actual_changes_block_all_cli_moves": true,
+  "git_snapshot_round_trip": {
+    "core_autocrlf": "true",
+    "source_files_verified_after_checkout": 116,
+    "original_bytes_preserved": true
+  },
+  "upgrade_script_sha256": "98bf500143a5fcf261af3179614dd8a25ef34efee9cedce0788ddd4b380bf508",
+  "gitattributes_sha256": "d2191adc80faa021e007d048f504f51608b3fa35584b793dee9e07fec6d7cff0"
 }

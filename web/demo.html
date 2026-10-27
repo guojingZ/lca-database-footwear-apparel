@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>从 0 到 1 · T 恤核算演示</title><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/learning.css"></head>
+<body><header class="topbar"><div class="brand"><span class="mark">C</span><div><strong>从 0 到 1 · 独立教学演示</strong><small>同一件 T 恤，从任务想法走到模型与报告</small></div></div><a href="/" target="_blank" rel="noopener">打开原工作台 ↗</a></header>
+<main><div class="intro"><div><p class="eyebrow">一个任务 · 七个步骤 · 同一 Python 引擎</p><h1>亲手完成一次有依据的核算</h1><p>逐步理解资料、因子、数量、缺项与交付。随时返回、重算和重置。</p></div><span class="version">v0.2.0 教学版</span></div>
+<div class="teaching-banner">这里使用公开代表工艺与模板假设；默认有缺项。演示独立保存进度，不改原工作台模型或公共数据；没有调用真实 LLM 服务。</div>
+<div class="toolbar"><button id="demo-reset">重置演示</button><button id="demo-import">导入演示 JSON</button><input id="demo-file" type="file" accept=".json,application/json" hidden><span class="spacer"></span><span id="demo-save-status" class="demo-state-label">进度仅保存在本浏览器</span></div>
+<div id="demo-notice" class="demo-notice" role="status" aria-live="polite"></div><div id="demo-summary" class="demo-summary"></div>
+<div class="demo-layout"><aside class="panel demo-sidebar"><h2>任务路线</h2><p id="demo-progress" class="hint"></p><nav id="demo-steps" aria-label="演示步骤"></nav><p class="hint">可直接查看任一步。“完成本步并继续”用于记录你的学习进度。</p></aside><div class="demo-content"><section id="demo-stage" class="panel" aria-live="polite"><p>正在载入教学任务…</p></section><div class="demo-controls"><button id="demo-prev">← 上一步</button><button id="demo-next" class="primary">完成本步并继续 →</button></div></div></div></main>
+<footer>公开数据：Carbonfact · CC BY-SA 4.0 · 保留来源、缺项与教学标记</footer><script src="/demo.js" defer></script></body></html>

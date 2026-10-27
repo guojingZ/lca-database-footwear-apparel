@@ -6,10 +6,21 @@ test_all_source_files_and_processed_values_match (test_data_and_upgrade.DataTest
 test_changed_processed_value_and_invalid_dqr_are_detected (test_data_and_upgrade.DataTests.test_changed_processed_value_and_invalid_dqr_are_detected) ... ok
 test_counts_empty_rows_unknowns_and_units (test_data_and_upgrade.DataTests.test_counts_empty_rows_unknowns_and_units) ... ok
 test_any_modified_source_aborts_all_moves (test_data_and_upgrade.UpgradeTests.test_any_modified_source_aborts_all_moves) ... ok
+test_backup_directory_symlink_is_rejected (test_data_and_upgrade.UpgradeTests.test_backup_directory_symlink_is_rejected) ... ok
+test_backup_metadata_failure_rolls_back_files (test_data_and_upgrade.UpgradeTests.test_backup_metadata_failure_rolls_back_files) ... ok
 test_changed_after_scan_is_not_moved (test_data_and_upgrade.UpgradeTests.test_changed_after_scan_is_not_moved) ... ok
+test_changed_csv_value_is_blocked_even_with_line_ending_change (test_data_and_upgrade.UpgradeTests.test_changed_csv_value_is_blocked_even_with_line_ending_change) ... ok
+test_crlf_checkout_of_lf_source_is_allowed (test_data_and_upgrade.UpgradeTests.test_crlf_checkout_of_lf_source_is_allowed) ... ok
+test_line_ending_change_after_scan_is_not_moved (test_data_and_upgrade.UpgradeTests.test_line_ending_change_after_scan_is_not_moved) ... ok
+test_line_endings_are_backed_up_without_rewriting (test_data_and_upgrade.UpgradeTests.test_line_endings_are_backed_up_without_rewriting) ... ok
 test_matching_files_backup_unknown_and_git_are_preserved (test_data_and_upgrade.UpgradeTests.test_matching_files_backup_unknown_and_git_are_preserved) ... ok
+test_move_failure_rolls_back_and_retry_succeeds (test_data_and_upgrade.UpgradeTests.test_move_failure_rolls_back_and_retry_succeeds) ... ok
 test_new_application_path_conflict_stops_old_file_moves (test_data_and_upgrade.UpgradeTests.test_new_application_path_conflict_stops_old_file_moves) ... ok
+test_new_application_with_crlf_is_not_backed_up_as_old (test_data_and_upgrade.UpgradeTests.test_new_application_with_crlf_is_not_backed_up_as_old) ... ok
+test_other_text_differences_are_not_ignored (test_data_and_upgrade.UpgradeTests.test_other_text_differences_are_not_ignored) ... ok
+test_pdf_line_ending_change_is_not_accepted (test_data_and_upgrade.UpgradeTests.test_pdf_line_ending_change_is_not_accepted) ... ok
 test_source_directory_symlink_is_not_followed (test_data_and_upgrade.UpgradeTests.test_source_directory_symlink_is_not_followed) ... ok
+test_tampered_reference_cannot_approve_changed_content (test_data_and_upgrade.UpgradeTests.test_tampered_reference_cannot_approve_changed_content) ... ok
 test_bad_shares_bad_loss_nan_and_missing_source (test_engine.EngineTests.test_bad_shares_bad_loss_nan_and_missing_source) ... ok
 test_compare_coverage_and_boundary (test_engine.EngineTests.test_compare_coverage_and_boundary) ... ok
 test_duplicate_factor_requires_repeat_reason (test_engine.EngineTests.test_duplicate_factor_requires_repeat_reason) ... ok
@@ -31,7 +42,7 @@ test_wrong_unit_blocks_published_subtotal (test_engine.EngineTests.test_wrong_un
 test_zero_is_allowed_only_as_an_explicit_factor_value (test_engine.EngineTests.test_zero_is_allowed_only_as_an_explicit_factor_value) ... ok
 
 ----------------------------------------------------------------------
-Ran 31 tests in 1.616s
+Ran 42 tests in 2.497s
 
 OK
 本地请求："POST /api/calculate HTTP/1.1" 400 -

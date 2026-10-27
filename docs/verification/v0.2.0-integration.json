@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "source_files_byte_equal_to_previous_zip": 116,
+  "engine_and_catalog_and_examples_unchanged": true,
+  "catalog_digest": "9ed63a5e7126182df8a80c393e332a8032587c1a5c0e857041ffb6049c80086e",
+  "overlay_from_v010_passed": true,
+  "git_env_personal_files_preserved": true,
+  "old_saved_model_recalculated": true,
+  "browser_layout": "not_verified: browser download was invalid; DOM/HTTP checks are separate",
+  "errors": []
+}

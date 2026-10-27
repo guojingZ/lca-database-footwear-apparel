@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "markdown_links_checked": 350,
+  "html": [
+    {
+      "file": "demo.html",
+      "unique_ids": 11,
+      "assets": 3
+    },
+    {
+      "file": "reader.html",
+      "unique_ids": 5,
+      "assets": 3
+    },
+    {
+      "file": "index.html",
+      "unique_ids": 37,
+      "assets": 4
+    }
+  ],
+  "errors": []
+}

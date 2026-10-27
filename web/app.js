@@ -11,7 +11,7 @@ const field = (title,path,value,type="text",wide=false) => `<label class="${wide
 const check = (title,path,value) => `<label class="check"><input type="checkbox" data-path="${esc(path)}" ${value?"checked":""}><span>${esc(title)}</span></label>`;
 const select = (title,path,options) => `<label>${esc(title)}<select data-path="${esc(path)}">${options}</select></label>`;
 const units = (selected) => ["kg","g","m2","pair","min","kWh","MJ","m3","L","item","km","tkm"].map(u=>option(u,{m2:"m²",pair:"双",min:"分钟",item:"件"}[u]||u,selected)).join("");
-const evidenceLink = (path, text) => `<a href="/evidence/${encodeURI(path)}" target="_blank" rel="noopener">${esc(text||path)}</a>`;
+const evidenceLink = (path, text) => `<a href="${path.endsWith(".md") ? "/reader?path="+encodeURIComponent(path) : "/evidence/"+encodeURI(path)}" target="_blank" rel="noopener">${esc(text||path)}</a>`;
 
 async function api(path, data) {
   const response = await fetch(path, data ? {method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data)} : {});
@@ -133,7 +133,7 @@ function showDetail(fid) {
   const f=allFactors().find(f=>f.id===fid);
   if(!f)return notify("因子已不存在。");
   const external=f.category==="external";
-  $("#factor-detail").innerHTML=`<h3>${esc(f.activity_zh)}</h3><p class="hint">${esc(f.activity_en||"")}</p><p class="descriptor">${esc(f.descriptor||f.id)}</p>
+  $("#factor-detail").innerHTML=`${!external?`<div class="source-callout"><b>公开结果因子</b> · 先核对对象、功能单位与包含项。${evidenceLink("docs/processes/"+f.category+".md","阅读中文工序卡")}<br>${typeof window!=="undefined"&&window.CFLearning?esc(window.CFLearning.caseUsage(f.id)):""}</div>`:""}<h3>${esc(f.activity_zh)}</h3><p class="hint">${esc(f.activity_en||"")}</p><p class="descriptor">${esc(f.descriptor||f.id)}</p>
     <dl><dt>GHG 原值</dt><dd><b>${esc(f.impacts.GHG)} kg CO₂e/${esc(f.unit_label||f.unit)}</b></dd><dt>功能单位</dt><dd>${esc(f.functional_unit_original||f.unit_label||f.unit)}</dd><dt>投入产出字段</dt><dd>${esc(f.input_ratio??"未提供")}</dd><dt>适用边界</dt><dd>${esc(f.boundary||f.source.scope)}</dd><dt>限制</dt><dd>${esc(f.limitations||f.status)}</dd><dt>地域 / 数据年</dt><dd>${esc(f.geography_tag||"人工说明")} / ${esc(f.data_year||"未知")}</dd></dl>
     ${external?`<p>人工来源：${esc(f.source.reference)}</p>`:`<h3>原始证据</h3><p>${evidenceLink(f.source.csv,"CSV（逻辑记录 "+f.source.csv_record+"）")} · ${evidenceLink(f.source.unit_evidence,"功能单位说明")}</p><p class="hint">CSV SHA256：${esc(f.source.sha256)}</p><div class="learn-links">${f.source.methods.map(p=>evidenceLink(p,p.split("/").pop())).join("")}</div><h3>16 项影响原值</h3><div class="table-wrap"><table><thead><tr><th>代码</th><th>原值（分母为本记录的功能单位）</th></tr></thead><tbody>${Object.entries(f.impacts).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</tbody></table></div><p class="hint">DQR（1 较好，5 较弱）：${Object.entries(f.dqr).map(([k,v])=>esc(k)+"="+esc(v??"未知")).join("；")}。不直接推导数值不确定性。</p>`}
     <div class="attribution">公开来源：Carbonfact · CC BY-SA 4.0 · 中文展示为应用层解释。${evidenceLink("docs/字段字典.md","中文字段与指标说明")}</div>`;
@@ -141,12 +141,13 @@ function showDetail(fid) {
 }
 function renderCatalog() {
   const query=$("#search").value.trim().toLowerCase(),category=$("#category-filter").value,unit=$("#unit-filter").value;
-  const rows=catalog.factors.filter(f=>(!category||f.category===category)&&(!unit||f.unit===unit)&&(!query||[f.activity_zh,f.activity_en,f.descriptor].join(" ").toLowerCase().includes(query)));
+  const caseIds=new Set(presets.tshirt.chain.map(s=>s.factor_id));
+  const rows=catalog.factors.filter(f=>(!$("#case-only").checked||caseIds.has(f.id))&&(!category||f.category===category)&&(!unit||f.unit===unit)&&(!query||[f.activity_zh,f.activity_en,f.descriptor].join(" ").toLowerCase().includes(query)));
   $("#filter-count").textContent=rows.length+" 条";
-  $("#factor-rows").innerHTML=rows.map(f=>`<tr><td>${esc(f.activity_zh)}<small>${esc(f.activity_en)}</small></td><td>${esc(f.category_zh)}</td><td>${fmt(f.impacts.GHG,6)}<small>kg CO₂e/${esc(f.unit_label)}</small></td><td>${esc(f.input_ratio??"未知")}</td><td>${detailButton(f.id)}</td></tr>`).join("");
+  $("#factor-rows").innerHTML=rows.map(f=>`<tr><td>${esc(f.activity_zh)}<small>${esc(f.activity_en)}</small>${presets.tshirt.chain.some(s=>s.factor_id===f.id)?'<span class="badge">T 恤教学案例</span>':''}</td><td>${esc(f.category_zh)}</td><td>${fmt(f.impacts.GHG,6)}<small>kg CO₂e/${esc(f.unit_label)}</small></td><td>${esc(f.input_ratio??"未知")}</td><td>${detailButton(f.id)}</td></tr>`).join("");
 }
 function renderLearn() {
-  const docs=[["中文入门.md","先读：数据库、因子与工序"],["字段字典.md","字段、单位与 16 项指标"],["核算规则.md","数量、边界与缺项"],["开发接续.md","代码、模型及 API"],["覆盖升级指南.md","本地迁移与删除清单"],["已知差异.md","快照差异与建模缺口"]];
+  const docs=[["体验升级使用指南.md","新版入门、案例与七步演示"],["中文入门.md","先读：数据库、因子与工序"],["字段字典.md","字段、单位与 16 项指标"],["核算规则.md","数量、边界与缺项"],["开发接续.md","代码、模型及 API"],["覆盖升级指南.md","本地迁移与删除清单"],["已知差异.md","快照差异与建模缺口"]];
   $("#learn-content").innerHTML=`<section class="panel"><h2>如何在中文语境下掌握这个项目</h2><p>先看工序做什么，再看“每多少产出”的影响值，最后检查已经包含什么、还缺什么。原始数据库同时提供结果和部分建模说明；完整底层清单并未全部公开。</p><div class="learn-links">${docs.map(([p,n])=>evidenceLink("docs/"+p,n)).join("")}</div><p class="hint">中文资料可在项目 docs 文件夹中用 Markdown 编辑器阅读；原文 PDF 保留在 upstream/carbonfact。</p></section>
     <div class="learning-grid">${catalog.categories.map(c=>`<section class="panel"><h2>${esc(c.name)} <span class="badge">${catalog.factors.filter(f=>f.category===c.id).length} 条</span></h2><p>${esc(c.boundary)}</p><p>${esc(c.limitations)}</p>${evidenceLink("docs/processes/"+c.id+".md","中文工序卡")} · <button data-action="browse-category" data-id="${esc(c.id)}">浏览记录</button></section>`).join("")}</div>`;
 }
@@ -210,7 +211,9 @@ async function start(){
     model=clone(presets.tshirt);
     $("#category-filter").innerHTML=option("","全部类别","")+catalog.categories.map(c=>option(c.id,c.name,"")).join("");
     renderModel();renderCatalog();renderLearn();await evaluate();
+    if(typeof window!=="undefined"&&window.CFLearning)window.CFLearning.mount({showFactor:showDetail,navigate:openTab,loadModel:candidate=>{model=prepareModel(candidate);viewCategory.clear();renderModel();openTab("model");notify("已将当前教学案例载入工作台；请按你的产品复核适用性。");schedule();}});
     $("#search").addEventListener("input",renderCatalog);
+    $("#case-only").addEventListener("change",renderCatalog);
     $("#category-filter").addEventListener("change",renderCatalog);
     $("#unit-filter").addEventListener("change",renderCatalog);
     $("#close-dialog").onclick=()=>$("#factor-dialog").close();
